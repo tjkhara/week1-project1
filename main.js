@@ -96,20 +96,38 @@ var doublenumber = 2 * numberpicked;
 //   "My name is __. I'm __ years old, and I live in __."
 
 
-
+var name, age, city;
+name = prompt("Please enter your name");
+age = prompt("Please enter your age");
+city = prompt("Please enter your city");
+console.log("My name is " + name + ". I'm " + age + " years old, and I live in " + city + ".");
 
 
 // 9. Create an alert that displays the response from a prompt. You can prompt the user for any kind of fun response. 
 
 
-
+var response;
+response = prompt ("What is your name?");
+alert(response);
 
 
 // 10. Create the formula to determine the area of a rectangle.
 //     The rectangle is: 2 inches by 3 inches
 //     Display the result in the console. 
 
+var length, breadth;
 
+length = 2;
+breadth = 3;
+
+var area = length * breadth;
+
+console.log(area);
 
 
 // 11. Prompt a user for their name. Find the length (number of characters) of their name and display the result in the console. 
+
+var name;
+name = prompt("What's your name?");
+var namelength = name.length;
+console.log(namelength);
