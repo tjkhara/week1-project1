@@ -24,7 +24,7 @@ ADVANCED TRACK: 8-11
 
 
 // 1. Log your name to the console (as a string).
-console.log("Question 1");
+
 console.log("TJ Khara");
 
 
@@ -34,6 +34,8 @@ console.log("TJ Khara");
 //    and then log it to the console.
 var name;
 console.log(name);
+
+// When I do this on codepen - I am not sure why, it the result is CodePen.
 
 
 
@@ -45,10 +47,12 @@ console.log(name);
 var numone = 1;
 var numtwo = 2;
 
-numone + numtwo;
-numone - numtwo;
-numone * numtwo;
-numone / numtwo;
+console.log(numone + numtwo);
+console.log(numone - numtwo);
+console.log(numone * numtwo);
+console.log(numone / numtwo);
+
+// assuming the way to display the results of the calculations is console.log
 
 
 
@@ -82,11 +86,11 @@ alert ("hello");
 // 7. Create a prompt that asks a user to pick a number.
 //    Then double user's answer.
 
-prompt ("Pick a number");
-
 var numberpicked = prompt ("Pick a number");
 
 var doublenumber = 2 * numberpicked;
+
+console.log (doublenumber);
 
 
 // ADVANCED TRACK
