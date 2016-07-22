@@ -25,6 +25,7 @@ ADVANCED TRACK: 8-11
 
 // 1. Log your name to the console (as a string).
 
+console.log("Question 1");
 console.log("TJ Khara");
 
 
@@ -32,6 +33,8 @@ console.log("TJ Khara");
 
 // 2. Declare a new variable called 'name',
 //    and then log it to the console.
+
+console.log("Question 2");
 var name;
 console.log(name);
 
@@ -43,6 +46,8 @@ console.log(name);
 
 // 3. Declare two variables with number values.
 //    Add, subtract, multiply and divide them.
+
+console.log("Question 3");
 
 var numone = 1;
 var numtwo = 2;
@@ -60,6 +65,8 @@ console.log(numone / numtwo);
 //    Create a third variable that concatenates the two strings
 //    that also places a space between the strings.
 
+console.log("Question 4");
+
 var stringone = "hello", stringtwo = "world";
 var totalstring = stringone + stringtwo;
 var totalstring = stringone + " " + stringtwo;
@@ -70,21 +77,26 @@ console.log(totalstring);
 // 5. Add, subract, multiply and divide the strings '5' and '3'.
 //    Observe the results and brieftly explain the results within the console.
 
-'5' + '3' = 53 // seems like simple concatenation
-'5' - '3' = 2 // seems like JS is first converting these into numbers and them performing the subtraction
-'5' * '3' = 15 // converting to numbers
-'5' / '3' = 1.666667 // converting to numbers
+console.log("Question 5");
+
+console.log('5' + '3'); // seems like simple concatenation
+console.log('5' - '3'); // seems like JS is first converting these into numbers and them performing the subtraction
+console.log('5' * '3'); // converting to numbers
+console.log('5' / '3'); // converting to numbers
 
 
 
 // 6. Create an simple alert stating anything you wish. 
 
+console.log("Question 6");
 alert ("hello");
 
 
 
 // 7. Create a prompt that asks a user to pick a number.
 //    Then double user's answer.
+
+console.log("Question 7");
 
 var numberpicked = prompt ("Pick a number");
 
@@ -99,6 +111,7 @@ console.log (doublenumber);
 //    In a single command display/log the sentence:
 //   "My name is __. I'm __ years old, and I live in __."
 
+console.log("Question 8");
 
 var name, age, city;
 name = prompt("Please enter your name");
@@ -110,6 +123,8 @@ console.log("My name is " + name + ". I'm " + age + " years old, and I live in "
 // 9. Create an alert that displays the response from a prompt. You can prompt the user for any kind of fun response. 
 
 
+console.log("Question 9");
+
 var response;
 response = prompt ("What is your name?");
 alert(response);
@@ -118,6 +133,8 @@ alert(response);
 // 10. Create the formula to determine the area of a rectangle.
 //     The rectangle is: 2 inches by 3 inches
 //     Display the result in the console. 
+
+console.log("Question 10");
 
 var length, breadth;
 
@@ -130,6 +147,8 @@ console.log(area);
 
 
 // 11. Prompt a user for their name. Find the length (number of characters) of their name and display the result in the console. 
+
+console.log("Question 11");
 
 var name;
 name = prompt("What's your name?");
